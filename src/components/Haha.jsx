@@ -6,7 +6,7 @@ const { Text } = Typography;
 
 const styles = {
   title: {
-    fontSize: "2em",
+    fontSize: "2.5em",
     fontWeight: "700",
     color: "#fff",
     textAlign: "center",
@@ -44,7 +44,7 @@ export default function Haha({ isServerInfo }) {
         style={styles.card}
         title={
           <h1 style={styles.title}>
-            Cryptocurrency exchange, made simple.
+            Cryptocurrency exchange,<br/>made simple.
           </h1>
         }
       >
@@ -59,8 +59,8 @@ export default function Haha({ isServerInfo }) {
           Sorry if the <span className="mango">logo, URL or title</span>{" "}
           makes anyone annoyed at me haha.
           <br />
-          It's purely a quick joke - and full of love 🙂💕<br/><br/>I forked my other project and restyled in a couple hours 😇
-          <br />I will take this "UNEQUALS" branded exchange app down over the weekend.
+          It's purely a quick joke - and full of love 🙂💕<br/><br/>I forked my other project, rebranded in a couple hours and deployed with vercel 😇
+          <br />I will take this "UNEQUALS" branded exchange app down over the weekend 😂
         </Text>
       </Card>
     </div>
