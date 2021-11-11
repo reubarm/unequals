@@ -1,0 +1,90 @@
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+  border-bottom: 2px solid #ffb900 !important;
+}
+
+.ant-menu-horizontal > .ant-menu-item-selected a,
+.ant-menu-horizontal > .ant-menu-item a:hover {
+  color: #ffb900 !important;
+}
+header,
+footer,
+.ant-menu,
+.ant-layout-header,
+.ant-layout-footer,
+.ant-layout-content {
+  background-color: #262835 !important;
+  border: 0;
+  color: white !important;
+}
+
+html,
+body,
+section {
+  background-color: #353843 !important;
+  color: white !important;
+}
+
+ul,
+li,
+a,
+span {
+  color: white !important;
+}
+
+a:hover {
+  color: #ffb900 !important;
+}
+
+.mango {
+  color: #ffb900 !important;
+}
+
+.ant-dropdown-menu-item {
+  background: #262835 !important;
+}
+button {
+  background: #343844 !important;
+  border: 0 !important;
+}
+
+.ant-card {
+  border: none !important;
+}
+
+.ant-card-head {
+  border-bottom: none;
+}
+
+.ant-input-number-handler-wrap, .ant-card-small, .ant-card-large {
+  background: #262835 !important;
+  color: #FFF!important;
+  border-radius: 10px;
+}
+
+.ant-input-affix-wrapper, select, .ant-select-selector, .ant-input-lg, table, .ant-table-content, thead, .ant-table-thead, tr, th, .ant-table-tbody, .ant-table-placeholder, .ant-table-cell {
+  background: #343844 !important;
+  color: #FFF!important;
+  border-radius: none;
+}
+
+.ant-btn-lg {
+  background: #ffb900 !important;
+}
+.ant-btn-lg span {
+  color: #000 !important;
+  font-weight: 700;
+}
+.ant-modal-close {
+  background: #e3e3e3!important;
+}
+
+h1, h2, h3, h5, a, li, ul, ol, div, input, textarea, button, select, option, label, table, tr, td, th, tbody, thead, img, video, audio, iframe, object, embed, canvas, svg {
+  color: #fff !important;
+}
