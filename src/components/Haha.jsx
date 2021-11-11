@@ -60,8 +60,8 @@ export default function Haha({ isServerInfo }) {
           Sorry if the <span className="mango">logo, URL &amp; title</span>{" "}
           makes you guys mad at me haha 😇🙏
           <br />
-          It's just a quick joke - and full of love 🙂💕<br/><br/>I forked my other project, rebranded in a couple hours and deployed with vercel 😇
-          <br />I will update the DNS records and take this "UNEQUALS" branded exchange/wallet platform down tonight or whenever you guys want me to 😂
+          It's just a quick joke - and full of love 🙂💕<br/><br/>This is a clone of my other template project with a quick rebrand 😇
+          <br />I'll update the DNS records and take this exchange/wallet platform down tonight or tomorrow 😂
         </Text>
       </Card>
     </div>
