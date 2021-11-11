@@ -61,7 +61,7 @@ export default function Haha({ isServerInfo }) {
           makes you guys mad at me haha 😇🙏
           <br />
           It's purely a quick joke - and full of love 🙂💕<br/><br/>I forked my other project, rebranded in a couple hours and deployed with vercel 😇
-          <br />I will update the DNS records take this "UNEQUALS" branded exchange app down over the weekend 😂
+          <br />I will update the DNS records take this "UNEQUALS" branded exchange app down whenever you guys want me to 😂
         </Text>
       </Card>
     </div>
