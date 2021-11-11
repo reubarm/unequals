@@ -5,7 +5,13 @@ import { getExplorer } from "../../helpers/networks";
 import "antd/dist/antd.css";
 import { Skeleton, Table } from "antd";
 import { useERC20Transfers } from "hooks/useERC20Transfers";
-
+const styles = {
+  title: {
+    fontSize: "30px",
+    fontWeight: "700",
+    textAlign: "center",
+  },
+};
 function ERC20Transfers() {
   const { ERC20Transfers, chainId } = useERC20Transfers();
   const { Moralis } = useMoralis();
@@ -50,7 +56,8 @@ function ERC20Transfers() {
   let key = 0;
   return (
     <div style={{ width: "65vw", padding: "15px" }}>
-      <h1>💸ERC20 Transfers</h1>
+      
+      <h1 style={styles.title}>Transfers</h1><br/><br/>
       <Skeleton loading={!ERC20Transfers}>
         <Table
           dataSource={ERC20Transfers}

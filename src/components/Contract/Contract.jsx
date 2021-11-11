@@ -7,6 +7,13 @@ import { getEllipsisTxt } from "helpers/formatters";
 import { useEffect } from "react";
 
 const { Text } = Typography;
+const styles = {
+  title: {
+    fontSize: "30px",
+    fontWeight: "700",
+    textAlign: "center",
+  },
+};
 
 export default function Contract() {
   const { Moralis } = useMoralis();
@@ -38,6 +45,7 @@ export default function Contract() {
   };
 
   return (
+<>
     <div style={{ margin: "auto", display: "flex", gap: "20px", marginTop: "25", marginBottom:"140px", width: "70vw",
     backgroundColor: "#262835",
     color: "#FFF" }}>
@@ -159,5 +167,5 @@ export default function Contract() {
         ))}
       </Card>
     </div>
-  );
+  </>);
 }

@@ -86,14 +86,14 @@ const App = ({ isServerInfo }) => {
               <NavLink to="/wallet">Your Wallet</NavLink>
             </Menu.Item>
             <Menu.Item key="dex">
-              <NavLink to="/1inch">Exchange</NavLink>
+              <NavLink to="/exchange">Exchange</NavLink>
             </Menu.Item>
             <Menu.Item key="balances">
-              <NavLink to="/erc20balance">Balances</NavLink>
+              <NavLink to="/balance">Balances</NavLink>
             </Menu.Item>
-            {/* <Menu.Item key="transfers">
-              <NavLink to="/erc20transfers">Transfers</NavLink>
-            </Menu.Item>
+            <Menu.Item key="transfers">
+              <NavLink to="/transfers">Transfers</NavLink>
+            </Menu.Item>{/* 
             <Menu.Item key="nft">
               <NavLink to="/nftBalance">NFTs</NavLink>
             </Menu.Item> */}
@@ -121,13 +121,13 @@ const App = ({ isServerInfo }) => {
             <Route path="/wallet">
               <Wallet />
             </Route>
-            <Route path="/1inch">
+            <Route path="/exchange">
               <InchDex chain="eth" />
             </Route>
-            <Route path="/erc20balance">
+            <Route path="/balance">
               <ERC20Balance />
             </Route>
-            <Route path="/erc20transfers">
+            <Route path="/transfers">
               <ERC20Transfers />
             </Route>
             <Route path="/nftBalance">
