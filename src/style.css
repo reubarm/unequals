@@ -88,3 +88,9 @@ button {
 h1, h2, h3, h5, a, li, ul, ol, div, input, textarea, button, select, option, label, table, tr, td, th, tbody, thead, img, video, audio, iframe, object, embed, canvas, svg {
   color: #fff !important;
 }
+
+@media only screen and (max-width: 600px) {
+  footer {
+    display: none!important;
+  }
+}

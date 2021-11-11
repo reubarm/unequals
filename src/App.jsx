@@ -77,7 +77,7 @@ const App = ({ isServerInfo }) => {
               width: "100%",
               justifyContent: "center",
             }}
-            defaultSelectedKeys={["Haha"]}
+            defaultSelectedKeys={["haha"]}
           >
             {/* <Menu.Item key="Haha">
               <NavLink to="/Haha">🚀 Quick Start</NavLink>
@@ -115,7 +115,7 @@ const App = ({ isServerInfo }) => {
         </Header>
         <div style={styles.content}>
           <Switch>
-            <Route path="/Haha">
+            <Route path="/haha">
               <Haha isServerInfo={isServerInfo} />
             </Route>
             <Route path="/wallet">
@@ -140,7 +140,7 @@ const App = ({ isServerInfo }) => {
               <>Please login using the "Authenticate" button</>
             </Route>
           </Switch>
-          <Redirect to="/Haha" />
+          <Redirect to="/haha" />
         </div>
       </Router>
       <Footer style={{ textAlign: "center", position: "absolute", width: "100%", bottom: "0" }}>
