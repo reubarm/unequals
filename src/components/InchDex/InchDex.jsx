@@ -172,7 +172,7 @@ function InchDex({ chain }) {
     <>
       <Card style={styles.card} bodyStyle={{ padding: "18px" }}>
         <div style={{ display: "block" }}>
-          <h1 style={styles.title}>Exchange</h1>
+          <h1 style={styles.title}>Token Exchange</h1>
           <br />
           <br />
         </div>

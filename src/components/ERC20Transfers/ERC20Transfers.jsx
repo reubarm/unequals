@@ -57,7 +57,7 @@ function ERC20Transfers() {
   return (
     <div style={{ width: "65vw", padding: "15px" }}>
       
-      <h1 style={styles.title}>Transfers</h1><br/><br/>
+      <h1 style={styles.title}>Token Transfers</h1><br/><br/>
       <Skeleton loading={!ERC20Transfers}>
         <Table
           dataSource={ERC20Transfers}

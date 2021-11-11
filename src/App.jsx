@@ -66,7 +66,7 @@ const App = ({ isServerInfo }) => {
   return (
     <Layout style={{ height: "100vh", overflow: "auto" }}>
       <Router>
-        <Header style={styles.header}><a href="/" style={{width: "100%"}}><img src="/unequals-haha.svg" height="48"/></a>
+        <Header style={styles.header}><a href="/" style={{width: "100%", }}><img src="/exchange.svg" height="40"/></a>
           <Menu
             theme="light"
             mode="horizontal"
@@ -77,7 +77,7 @@ const App = ({ isServerInfo }) => {
               width: "100%",
               justifyContent: "center",
             }}
-            defaultSelectedKeys={["haha"]}
+            defaultSelectedKeys={["exchange"]}
           >
             {/* <Menu.Item key="Haha">
               <NavLink to="/Haha">🚀 Quick Start</NavLink>
@@ -97,9 +97,9 @@ const App = ({ isServerInfo }) => {
             <Menu.Item key="nft">
               <NavLink to="/nftBalance">NFTs</NavLink>
             </Menu.Item> */}
-            <Menu.Item key="contract">
+            {/* <Menu.Item key="contract">
               <NavLink to="/contract">Contracts</NavLink>
-            </Menu.Item>
+            </Menu.Item> */}
           </Menu>
           <div style={styles.headerRight}>
             <Chains />
@@ -115,9 +115,9 @@ const App = ({ isServerInfo }) => {
         </Header>
         <div style={styles.content}>
           <Switch>
-            <Route path="/haha">
+            {/* <Route path="/haha">
               <Haha isServerInfo={isServerInfo} />
-            </Route>
+            </Route> */}
             <Route path="/wallet">
               <Wallet />
             </Route>
@@ -130,31 +130,31 @@ const App = ({ isServerInfo }) => {
             <Route path="/transfers">
               <ERC20Transfers />
             </Route>
-            <Route path="/nftBalance">
+            {/* <Route path="/nftBalance">
               <NFTBalance />
-            </Route>
-            <Route path="/contract">
+            </Route> */}
+            {/* <Route path="/contract">
               <Contract />
-            </Route>
+            </Route> */}
             <Route path="/nonauthenticated">
               <>Please login using the "Authenticate" button</>
             </Route>
           </Switch>
-          <Redirect to="/haha" />
+          <Redirect to="/exchange" />
         </div>
       </Router>
       <Footer style={{ textAlign: "center", position: "absolute", width: "100%", bottom: "0" }}>
 
 
         <Text style={{ display: "block" }}>
-          Made with love (as a joke 😇❤️) for Ian, Rich, Shane and the future of Blockchain, by {" "}
+          Made with love 😇❤️ by {" "}
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://reubarm.com"
             className="mango"
           >
-            Reuben Armstrong 
+            Reuben
           </a>
         </Text>
       </Footer>
