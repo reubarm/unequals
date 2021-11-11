@@ -23,7 +23,8 @@ const styles = {
     backgroundColor: "#262835",
     width: "100%",
     textAlign: "center",
-    border: "none!!important",
+    border: "none!important",
+    padding: "0 30px"
   },
   timeline: {
     marginBottom: "-45px",
@@ -56,11 +57,11 @@ export default function Haha({ isServerInfo }) {
           <b><span className="mango">(just kidding 😂)</span></b>
           <br />
           <br /><br/>
-          Sorry if the <span className="mango">logo, URL or title</span>{" "}
-          makes anyone annoyed at me haha.
+          Sorry if the <span className="mango">logo, URL &amp; title</span>{" "}
+          makes you guys mad at me haha 😇🙏
           <br />
           It's purely a quick joke - and full of love 🙂💕<br/><br/>I forked my other project, rebranded in a couple hours and deployed with vercel 😇
-          <br />I will take this "UNEQUALS" branded exchange app down over the weekend 😂
+          <br />I will update the DNS records take this "UNEQUALS" branded exchange app down over the weekend 😂
         </Text>
       </Card>
     </div>
